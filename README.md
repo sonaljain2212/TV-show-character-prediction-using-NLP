@@ -1,1 +1,3 @@
 # TV-show-character-prediction-using-NLP
+
+This project aims to predicts \"Which Character are You?\" as to which Seinfeld character would be most likely to say the sentence/joke that was entered. The dataset is a text file containing strings of data as dialogues. To solve this problem, I started with data ingestion and performed text mining to get the characters and their dialogues and stored them as a DataFrame. In this process, I applied several transformations in the data to remove the unnecesaary text and the unimportant characters and words. with the clean data, I used Universal Sentence encoder to predict the character for the text entered.
